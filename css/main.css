@@ -1,3 +1,9 @@
+
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   background-image: url(../img/bg5.jpg);
   background-attachment: fixed;
@@ -167,4 +173,23 @@ ul.education-experience__list li article {
 
 ul.education-experience__list li h3{
   margin-top: 0;
+}
+
+.photos {
+  box-sizing: border-box;
+}
+
+ul.photos__list {
+  list-style: none;
+  overflow: hidden;
+}
+
+ul.photos__list li{
+  width: 25%;
+  float: left;
+}
+
+ul.photos__list li img{
+  padding: 5px 5px;
+  width: 100%;
 }
