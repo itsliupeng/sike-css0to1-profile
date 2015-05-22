@@ -219,3 +219,48 @@ ul.photos__list li img{
   height: 136px;
 }
 
+.contact header {
+
+}
+
+.contact form {
+
+}
+
+.box {
+  margin: 20px auto;
+  position: relative;
+  width: 40%;
+}
+
+.box input {
+  height: 30px;
+  width: 95%;
+}
+
+.box textarea {
+  height: 100px;
+  width: 95%;
+}
+
+.align-left {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+
+  text-align: right;
+}
+
+.contact form button{
+  height: 40px;
+  width: 95%;
+  color: white;
+  background-color: #daae1d;
+  border: none;
+  border-radius: 1000px;
+}
+
+
+
+
