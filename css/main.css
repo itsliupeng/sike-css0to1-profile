@@ -140,4 +140,31 @@ h1, h2, h3, h4, h5, h6 {
   background-image: url(../img/skill-product.png);
 }
 
+.education-experience {
 
+}
+
+ul.education-experience__list {
+  list-style: none;
+  overflow: hidden;
+}
+
+ul.education-experience__list li {
+  margin: 30px;
+  overflow: hidden;
+}
+
+ul.education-experience__list li img {
+  float: left;
+  height: 180px;
+}
+
+ul.education-experience__list li article {
+  padding-left: 40px;
+  overflow: hidden;
+  text-align: left;
+}
+
+ul.education-experience__list li h3{
+  margin-top: 0;
+}
