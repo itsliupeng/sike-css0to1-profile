@@ -193,3 +193,29 @@ ul.photos__list li img{
   padding: 5px 5px;
   width: 100%;
 }
+
+.get-in-touch {
+  box-sizing: border-box;
+}
+
+.get-in-touch header {
+  margin-top: 40px;
+}
+
+.get-in-touch ul{
+  margin: 80px 80px;
+  padding-left: 0;
+  list-style: none;
+  overflow: hidden;
+}
+
+.get-in-touch ul li{
+  padding: 5px 5px;
+  width: 25%;
+  float: left;
+}
+
+.get-in-touch ul li img{
+  height: 136px;
+}
+
