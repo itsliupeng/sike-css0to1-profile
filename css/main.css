@@ -146,9 +146,7 @@ li.whatido__skill {
   background-image: url(../img/skill-product.png);
 }
 
-.education-experience {
 
-}
 
 ul.education-experience__list {
   list-style: none;
@@ -202,30 +200,23 @@ ul.photos__list li img{
   margin-top: 40px;
 }
 
-.get-in-touch ul{
+ul.get-in-touch__list{
   margin: 80px 80px;
   padding-left: 0;
   list-style: none;
   overflow: hidden;
 }
 
-.get-in-touch ul li{
+ul.get-in-touch__list li{
   padding: 5px 5px;
   width: 25%;
   float: left;
 }
 
-.get-in-touch ul li img{
+ul.get-in-touch__list li img{
   height: 136px;
 }
 
-.contact header {
-
-}
-
-.contact form {
-
-}
 
 .box {
   margin: 20px auto;
@@ -282,6 +273,64 @@ ul.photos__list li img{
     margin-bottom: 40px;
     width: 100%;
   }
+
+  ul.education-experience__list {
+    padding-left: 0px;
+  }
+
+  ul.education-experience__list li {
+    text-align: center;
+  }
+
+  ul.education-experience__list li img {
+    float: none;
+    width: 180px;
+  }
+
+  ul.education-experience__list li article {
+    text-align: center;
+    padding-left: 0px;
+    overflow: hidden;
+    text-align: left;
+  }
+
+  .education-experience header span {
+    display: block;
+  }
+
+  ul.photos__list {
+    list-style: none;
+    padding-left: 0px;
+  }
+
+  ul.photos__list li{
+    float: none;
+    width: 100%;
+  }
+
+  ul.photos__list li img{
+    padding: 5px 5px;
+    width: 100%;
+  }
+
+  ul.get-in-touch__list {
+    margin: 0;
+  }
+
+  ul.get-in-touch__list li{
+    padding: 0;
+    width: 50%;
+  }
+
+  .box {
+    width: 90%;
+  }
+  .align-left {
+    position: static;
+    text-align: left;
+  }
+
+
 }
 
 
