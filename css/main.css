@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .main-nav ul {
   list-style: none;
-  padding: 0;
+  padding: 1px;
   margin: 0;
 }
 
@@ -124,7 +124,7 @@ h1, h2, h3, h4, h5, h6 {
   clear: both;
 }
 
-.whatido ul li{
+li.whatido__skill {
   background-repeat: no-repeat;
   background-position: center top;
   padding-top: 100px;
@@ -259,6 +259,29 @@ ul.photos__list li img{
   background-color: #daae1d;
   border: none;
   border-radius: 1000px;
+}
+
+@media only screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+
+  .main-header h1 {
+    font-size: 32px;
+  }
+
+  .main-nav ul li {
+    display: block;
+  }
+
+  .info-section {
+    padding: 10px;
+  }
+
+  li.whatido__skill {
+    margin-bottom: 40px;
+    width: 100%;
+  }
 }
 
 
